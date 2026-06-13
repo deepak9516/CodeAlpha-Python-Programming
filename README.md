@@ -11,13 +11,13 @@ A complete, interactive command-line implementation of the classic **Hangman Gam
 ---
 
 ### 📋 Table of Contents
-1. [Features](##-features)
-2. [Project Architecture](##%EF%B8%8F-project-architecture)
-3. [Prerequisites & Installation](##-prerequisites--installation)
-4. [How to Run](##-how-to-run)
-5. [Game Rules & Logic](##-game-rules--logic)
-6. [Included Vocabulary](##-included-vocabulary)
-7. [Current Code Limitations](##-current-code-limitations)
+1. [Features](#-features)
+2. [Project Architecture](#%EF%B8%8F-project-architecture)
+3. [Prerequisites & Installation](#-prerequisites--installation)
+4. [How to Run](#-how-to-run)
+5. [Game Rules & Logic](#-game-rules--logic)
+6. [Included Vocabulary](#-included-vocabulary)
+7. [Current Code Limitations](#-current-code-limitations)
 
 ---
 
@@ -95,13 +95,13 @@ An end-to-end, terminal-based **Stock Portfolio Tracker** utility. This console 
 ---
 
 ### 📋 Table of Contents
-1. [Core Features](##-core-features)
-2. [File Directory Layout](##%EF%B8%8F-file-directory-layout)
-3. [Prerequisites & Environment Setup](##-prerequisites--environment-setup)
-4. [Step-by-Step Execution Guide](##-step-by-step-execution-guide)
-5. [Data Architecture & CSV Mapping](##-data-architecture--csv-mapping)
-6. [Detailed Code Workflow](##-detailed-code-workflow)
-7. [Technical Safeguards](##-technical-safeguards)
+1. [Core Features](#-core-features)
+2. [File Directory Layout](#%EF%B8%8F-file-directory-layout)
+3. [Prerequisites & Environment Setup](#-prerequisites--environment-setup)
+4. [Step-by-Step Execution Guide](#-step-by-step-execution-guide)
+5. [Data Architecture & CSV Mapping](#-data-architecture--csv-mapping)
+6. [Detailed Code Workflow](#-detailed-code-workflow)
+7. [Technical Safeguards](#-technical-safeguards)
 
 ---
 
@@ -180,20 +180,20 @@ MSFT,4
 * **Overwrite Warning:** Running the script a second time will wipe out old data entries within `my_portfolio.csv` and write fresh metrics from scratch.
 *
 
-### 📧 Automated Email Extractor (Python Text Automation)
+## 📧 Automated Email Extractor (Python Text Automation)
 
 A high-utility, regex-powered **Automated Email Extractor** script built with Python. This tool automatically parses through raw, unstructured text files, identifies all valid email addresses using Pattern Matching, and exports them into a clean, line-separated text file.
 
 ---
 
 ### 📋 Table of Contents
-1. [Core Features](##-core-features)
-2. [File Directory Structure](##%EF%B8%8F-file-directory-structure)
-3. [Prerequisites & Requirements](##-prerequisites--requirements)
-4. [Step-by-Step Execution Guide](##-step-by-step-execution-guide)
-5. [How the Regex Pattern Works](##-how-the-regex-pattern-works)
-6. [Data Workflow & Output Format](##-data-workflow--output-format)
-7. [Technical Safeguards & Edge Cases](##-technical-safeguards--edge-cases)
+1. [Core Features](#-core-features)
+2. [File Directory Structure](#%EF%B8%8F-file-directory-structure)
+3. [Prerequisites & Requirements](#-prerequisites--requirements)
+4. [Step-by-Step Execution Guide](#-step-by-step-execution-guide)
+5. [How the Regex Pattern Works](#-how-the-regex-pattern-works)
+6. [Data Workflow & Output Format](#-data-workflow--output-format)
+7. [Technical Safeguards & Edge Cases](#-technical-safeguards--edge-cases)
 
 ---
 
@@ -275,7 +275,8 @@ john.doe@company.org
 * **Duplicate Emails:** If the exact same email appears multiple times inside the raw source text, the current engine will capture and log all duplicates inside `email.txt`.
 * **Overwrite Rule:** Every new execution clears old data rows inside `email.txt` and starts logging from scratch.
 *
-### 🤖 Smart Rule-Based Chatbot & Quiz System (Python)
+
+## 🤖 Smart Rule-Based Chatbot & Quiz System (Python)
 
 An interactive, terminal-based **Rule-Based Chatbot** built using Python. This application acts as an educational assistant that can answer technical questions about Artificial Intelligence (AI), Machine Learning (ML), and Computer Networks (CN). Additionally, it features an integrated **Technical Quiz Module** that dynamically tests users and tracks their live performance scores.
 
